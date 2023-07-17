@@ -1,0 +1,12 @@
+---
+dataset: ../../Datasets/Tiny Shakespeare/input.txt
+split-ratio: 0.9
+block-size: 256
+batch-size: 32
+learning-rate: 2.0e-4
+eval-iters: 500
+max-iters: 15000
+n-embed: 384
+n-head : 6
+n-layers: 6
+dropout: 0.2
